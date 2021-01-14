@@ -5,7 +5,7 @@ import store from './store';
 import { getAdmin } from './actions/adminActions';
 import jwt_decode from 'jwt-decode';
 import { Route, Switch } from 'react-router-dom';
-import PrivateRoute from './components/common/PrivateRoute';
+//import PrivateRoute from './components/common/PrivateRoute';
 import AdminLogin from './components/AdminLogin/AdminLogin'
 import Dashboard from './components/Dashboard/Dashboard';
 import Students from './components/Students/Students';
