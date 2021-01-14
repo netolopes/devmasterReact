@@ -1,12 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 import swal from 'sweetalert';
 import SidebarTemplate from '../common/SidebarTemplate/SidebarTemplate';
-import Spinner from '../common/Spinner';
+//import Spinner from '../common/Spinner';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import {  setMessage,deleteStudent } from '../../actions/studentActions';
 import ServerTable from '../../utils/serverTable';
-import _ from 'lodash';
+//import _ from 'lodash';
 
 
 class Students extends Component {
@@ -95,7 +96,7 @@ class Students extends Component {
 */
     render() {
 
-        const { students, loading } = this.props.student;
+       // const { students, loading } = this.props.student;
        // console.log(students);  
        
 
