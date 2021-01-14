@@ -1,8 +1,8 @@
 [[redirects]]
 from = "/*"
-  to = "/dashboard"
+  to = "/index.html"
   status = 200
-  force = false
-  query = {path = ":path"}
+  #force = false
+  #query = {path = ":path"}
   
   
