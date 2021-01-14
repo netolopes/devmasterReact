@@ -35,7 +35,7 @@ class SidebarTemplate extends Component {
                     <div className="sidebar-heading text-center text-light bg-info"> 
                         <img src={Avatar} alt="avatar" className='rounded-circle' style={{width:'100px', height:'100px'}} />
                        {/* <h3>{admin.full_name}</h3> */}
-                       <h3></h3>
+                       
                         <small>{admin.name}</small> 
                         <br/>
                        {/* <small>{admin.national_id}</small> */}

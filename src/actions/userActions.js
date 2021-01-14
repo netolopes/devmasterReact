@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import {
     SET_LOADING,
-    GET_USERS,
+  //  GET_USERS,
     GET_USER,
     GET_ERRORS,
     SET_MESSAGE

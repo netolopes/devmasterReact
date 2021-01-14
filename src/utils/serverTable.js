@@ -1,3 +1,5 @@
+/* eslint-disable no-throw-literal */
+/* eslint-disable no-unused-expressions */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -53,13 +55,13 @@ class ServerTable extends React.Component {
 
     tableClass() {
         let classes = 'table ';
-        // eslint-disable-next-line no-unused-expressions
+       
         this.props.hover ? classes += 'table-hover ' : '';
-        // eslint-disable-next-line no-unused-expressions
+       
         this.props.bordered ? classes += 'table-bordered ' : '';
-        // eslint-disable-next-line no-unused-expressions
+       
         this.props.condensed ? classes += 'table-condensed ' : '';
-        // eslint-disable-next-line no-unused-expressions
+       
         this.props.striped ? classes += 'table-striped ' : '';
 
         return classes;
@@ -237,7 +239,7 @@ class ServerTable extends React.Component {
     }
 
     handlePerPageChange(event) {
-        const {name, value} = event.target;
+        const {value} = event.target;
         let options = Object.assign({}, this.state.options);
         let requestData = Object.assign({}, this.state.requestData);
 

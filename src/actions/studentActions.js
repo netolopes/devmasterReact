@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {
     SET_LOADING,
-    GET_STUDENTS,
+    //GET_STUDENTS,
     GET_STUDENT,
     GET_ERRORS,
     SET_MESSAGE

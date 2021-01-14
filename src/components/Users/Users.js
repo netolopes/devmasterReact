@@ -1,12 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
 import swal from 'sweetalert';
 import SidebarTemplate from '../common/SidebarTemplate/SidebarTemplate';
-import Spinner from '../common/Spinner';
+//import Spinner from '../common/Spinner';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { setMessage,deleteUser } from '../../actions/userActions';
 import ServerTable from '../../utils/serverTable';
-import _ from 'lodash';
+//import _ from 'lodash';
 
 
 class Users extends Component {
@@ -97,7 +98,7 @@ class Users extends Component {
 */
     render() {
 
-        const { users, loading } = this.props.user;
+        // const { users, loading } = this.props.user;
        // console.log(users);  
        
 
