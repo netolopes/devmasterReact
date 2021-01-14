@@ -30,8 +30,6 @@ class AdminLogin extends Component {
 
     // a replacement for componentWillReciveProps
     static getDerivedStateFromProps(props, state) {
-        props.history.push('/dashboard');
-        /*
         if(props.admin.isAuthenticated) {
             props.history.push('/dashboard');
         }
@@ -40,7 +38,6 @@ class AdminLogin extends Component {
                 errors: props.errors,
             };
         }
-        */
     }
 
     onChangeHandler = (e) => {
