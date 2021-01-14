@@ -45,18 +45,18 @@ function App() {
         <div className='App'>
            <Route exact path='/' component={AdminLogin} />
            <Switch>
-                <PrivateRoute exact path={'/dashboard'} component={Dashboard} />
+                <Route exact path={'/dashboard'} component={Dashboard} />
           
-                <PrivateRoute exact path={'/students'} component={Students} />
+                <Route exact path={'/students'} component={Students} />
           
-                <PrivateRoute exact path={'/add-student'} component={AddStudent} />
+                <Route exact path={'/add-student'} component={AddStudent} />
          
-                <PrivateRoute exact path={'/update-student/:id'} component={UpdateStudent} />
+                <Route exact path={'/update-student/:id'} component={UpdateStudent} />
          
-                <PrivateRoute exact path={'/search'} component={Search} />
+                <Route exact path={'/search'} component={Search} />
 
-                <PrivateRoute exact path={'/users'} component={Users} />
-                <PrivateRoute exact path={'/update-user/:id'} component={UpdateUser} />
+                <Route exact path={'/users'} component={Users} />
+                <Route exact path={'/update-user/:id'} component={UpdateUser} />
                
                 
            </Switch>
