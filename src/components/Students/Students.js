@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import {  setMessage,deleteStudent } from '../../actions/studentActions';
 import ServerTable from '../../utils/serverTable';
+//import 'dotenv/config';
 //import _ from 'lodash';
 
 
@@ -99,12 +100,12 @@ class Students extends Component {
        // const { students, loading } = this.props.student;
        // console.log(students);  
        
-
+      // const baseUrl = 'http://157.245.165.207:3333/';
             let self = this;
          //  const url = 'https://5efe2a74dd373900160b3f24.mockapi.io/api/students';
          //  const columns = ['id', 'name', 'email', 'avatar', 'address', 'created_at', 'actions'];
          
-            const url = 'http://157.245.165.207:3333/students_paginate';
+            const url = process.env.REACT_APP_BASE_URL+'students_paginate';
             const columns = [ 'full_name', 'location', 'stage', 'actions'];
             let checkAllInput = (<input type="checkbox" ref={this.check_all}
                                         onChange={this.handleCheckboxTableAllChange}/>);
