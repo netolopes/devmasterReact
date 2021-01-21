@@ -33,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://jrpsoftware.com.br",
+  "proxy": "https://apinode.jrpsoftware.com.br",
   "eslintConfig": {
     "extends": "react-app"
   },

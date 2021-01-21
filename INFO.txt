@@ -2,3 +2,10 @@ app publicado no netlify:  https://mystifying-raman-a7c492.netlify.app/
 
 deploy
 incluir homepage no packed.json
+
+//caminho do projeto apos build
+cd build 
+pwd
+colocar o caminho do app em sites-enables/default
+root/home/path...
+sudo service nginx restart
