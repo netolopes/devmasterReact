@@ -2,7 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reactapp.jrpsoftware.com.br/",
+  "homepage": "https://reactapp.jrpsoftware.com.br",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.5.3",
