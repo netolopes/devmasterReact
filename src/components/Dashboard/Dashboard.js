@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
 import SidebarTemplate from '../common/SidebarTemplate/SidebarTemplate';
-import AreaChart from '../Charts/AreaChart';
-import ColumnChart from '../Charts/ColumnChart';
-import LineChart from '../Charts/LineChart';
-import PieChart from '../Charts/PieChart';
+//import AreaChart from '../Charts/AreaChart';
+//import ColumnChart from '../Charts/ColumnChart';
+//import LineChart from '../Charts/LineChart';
+//import PieChart from '../Charts/PieChart';
 
 class Dashboard extends Component {
     render() {
         return (
             <SidebarTemplate>
+                <div>
+                    <h1>----DASHBOARD---</h1>
+                 </div>   
+                {/*  
                 <div className="row justify-content-around mb-5">
                     <div className="col-md-5 mt-3">
                         <ColumnChart />
@@ -23,7 +27,7 @@ class Dashboard extends Component {
                         <PieChart />
                     </div>
                 </div>
-                
+                */}
             </SidebarTemplate>
         );
     }

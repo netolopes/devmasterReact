@@ -20,11 +20,11 @@ export const loginAdmin = (adminData) => (dispatch) => {
             
         })
         .catch((err) => {
-           
-            dispatch({
-                type: GET_ERRORS,
-                payload: err.response.data
-            })
+           console.log('erooooooooooooooooooooooo'+err);
+         //   dispatch({
+         //       type: GET_ERRORS,
+          //      payload: err.response.data
+        //    })
         }
             
         );

@@ -43,7 +43,7 @@ if (localStorage.jwtToken) {
 function App() {
     return (
         <div className='App'>
-           <Route exact path='/' component={AdminLogin} />
+           <Route exact path={'/'} component={AdminLogin} />
            <Switch>
                 <Route exact path={'/dashboard'} component={Dashboard} />
           
