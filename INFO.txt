@@ -9,3 +9,7 @@ pwd
 colocar o caminho do app em sites-enables/default
 root/home/path...
 sudo service nginx restart
+
+git erro: Please commit your changes or stash them before you merge.Aborting
+git reset --hard
+git pull

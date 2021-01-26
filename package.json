@@ -27,6 +27,7 @@
     "redux-thunk": "^2.3.0",
     "sweetalert": "^2.1.2"
   },
+  "homepage": "https://reactapp.jrpsoftware.com.br",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -9,9 +9,9 @@ class Dashboard extends Component {
     render() {
         return (
             <SidebarTemplate>
-                <div>
-                    <h1>----DASHBOARD---</h1>
-                 </div>   
+                  <div>
+                      <h1>----DASHBOARD---</h1>
+                  </div>   
                 {/*  
                 <div className="row justify-content-around mb-5">
                     <div className="col-md-5 mt-3">
